@@ -1,0 +1,169 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80px 350px 450px 480px 450px 450px 130px 250px;
+    box-sizing: border-box; 
+    background-color: white;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    background-color: whitesmoke;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+          
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+          
+}
+.flex-container4{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+          
+}
+.flex-container5{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#Cart{
+    margin-left: 1455px;
+    margin-top: 8px;
+    border-radius: 20%;
+    background-color: yellow;
+    position: fixed;
+    padding: 5px;
+}
+.whatsapp{
+    position: fixed;
+    border-radius: 70%;
+    margin-left: 8px;
+    background-color: green;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: blue;
+}
+
+.nav_bar li{
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    margin-left: 60px;
+    font-size: larger;    
+}
+.kiddy{
+    margin-top: 50px;
+}
+.Description{
+    margin-left: 100px;
+}
+.Category{
+    margin-left: 150px;
+}
+.Follow_Us{
+    margin-left: 180px;
+}
+.main_logo{
+    flex-grow: 1;
+}
+button{
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(156, 153, 149);
+    height: 33px;
+    padding: 12px;
+}
+button:hover{
+    color: rgb(227, 35, 35);
+}
+h1:hover{
+    color: tomato;
+}
+.but1{
+    margin-left: 1020px;
+    background-color: rgb(27, 4, 111);
+    color: white;
+    font-size: medium;
+}
+.but2{
+    background-color: white;
+    color: rgb(33, 17, 135);
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-left: 120px;
+}
+h2{
+    font-size: xx-large;
+}
+
+h3{
+    color: purple;
+}
+h4{
+    color: rgb(240, 237, 237);
+    font-size: large;
+}
+.cat li{
+    display: inline-block;
+    margin-left: 200px;
+}
+.socialmedia li{
+    display: inline-block; 
+    position: relative;
+    margin: 5px;
+}
+table{
+    box-sizing: border-box ;
+}
+.scroll{
+    background-color: grey;
+    height: 40px;
+}
+
+.Header{
+       background-color: rgb(203, 228, 154);
+}
+
+.New_Arrival{
+    background-color: rgb(238, 242, 244);
+}
+
+.stock{
+    background-color: white; 
+}
+
+.Newyear_sale{
+       background-color: rgb(199, 245, 187);
+}
+
+.Best_selling{
+    background-color: rgb(240, 238, 235); 
+}
+
+.Services{
+    background-color: navy;
+    color: white;
+}
+

@@ -1,0 +1,13 @@
+.title{
+    margin-top: 15px;
+}
+li{
+    float: left;
+    padding: 15px;
+    list-style-type: none;
+}
+
+h1{
+    margin: 20px;
+}
+
